@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1467037860 source:c:\users\ashar khan\desktop\matrix calculator\bada.cpp
+	"bada.h"
+	<windows.h>
+	<iostream>
+
+1467037639 c:\users\ashar khan\desktop\matrix calculator\bada.h
+
+1477118848 source:c:\users\ashar khan\desktop\matrix calculator\main.cpp
+	<iostream>
+	<conio.h>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	"Storage.h"
+	"Equipments.h"
+
+1477119015 source:c:\users\ashar khan\desktop\matrix calculator\equipments.cpp
+	"Equipments.h"
+	"bada.h"
+	"Color.h"
+	"Starter.h"
+	"Settings.h"
+	"Storage.h"
+	<time.h>
+	<conio.h>
+	<stdlib.h>
+	<iostream>
+
+1477051404 c:\users\ashar khan\desktop\matrix calculator\equipments.h
+
+1467040571 source:c:\users\ashar khan\desktop\matrix calculator\color.cpp
+	"Color.h"
+	<windows.h>
+
+1467040571 c:\users\ashar khan\desktop\matrix calculator\color.h
+
+1478953476 c:\users\ashar khan\desktop\matrix calculator\starter.h
+
+1478953582 source:c:\users\ashar khan\desktop\matrix calculator\starter.cpp
+	"Starter.h"
+	"Equipments.h"
+	"bada.h"
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"Storage.h"
+	<conio.h>
+	<cctype>
+
+1469727603 source:c:\users\ashar khan\desktop\matrix calculator\matrix.cpp
+	"Matrix.h"
+
+1469727603 c:\users\ashar khan\desktop\matrix calculator\matrix.h
+
+1469727506 source:c:\users\ashar khan\desktop\matrix calculator\operation.cpp
+	"Operation.h"
+
+1471701774 c:\users\ashar khan\desktop\matrix calculator\operation.h
+	"Starter.h"
+
+1477974186 source:c:\users\ashar khan\desktop\matrix calculator\storage.cpp
+	"Storage.h"
+	<fstream>
+	<iostream>
+	<conio.h>
+	<string.h>
+	<time.h>
+	<string>
+	<iomanip>
+
+1477115446 c:\users\ashar khan\desktop\matrix calculator\storage.h
+	"Starter.h"
+
+1477116703 c:\users\ashar khan\desktop\matrix calculator\settings.h
+
+1478952672 source:c:\users\ashar khan\desktop\matrix calculator\settings.cpp
+	"Settings.h"
+	<iostream>
+	"Equipments.h"
+	"bada.h"
+	"Color.h"
+	<conio.h>
+	<iomanip>
+	"Storage.h"
+	"Starter.h"
+	<windows.h>
+	<string.h>
+	<fstream>
+	<process.h>
+
