@@ -54,7 +54,7 @@ char* TimeStamp::GetTime()
 }
 void Logger::Events(unsigned int a)
 {
-   const char *pj;
+   const char *pj = new char;
     switch(a)
     {
         case 1: pj="Application was launched";break;
@@ -140,6 +140,7 @@ void Logger::Events(unsigned int a)
         case 81: pj="Returning back to the Settings from Developer Info";
         case 82: pj="Presenting Help Page..";
         case 83: pj="Returning back to Settings from Help..";
+        case 100: pj="Opened the Developer Page of the Application";
 
 
 

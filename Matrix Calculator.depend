@@ -6,7 +6,7 @@
 
 1467037639 c:\users\ashar khan\desktop\matrix calculator\bada.h
 
-1477118848 source:c:\users\ashar khan\desktop\matrix calculator\main.cpp
+1486201651 source:c:\users\ashar khan\desktop\matrix calculator\main.cpp
 	<iostream>
 	<conio.h>
 	<fstream>
@@ -60,7 +60,7 @@
 1471701774 c:\users\ashar khan\desktop\matrix calculator\operation.h
 	"Starter.h"
 
-1477974186 source:c:\users\ashar khan\desktop\matrix calculator\storage.cpp
+1486201033 source:c:\users\ashar khan\desktop\matrix calculator\storage.cpp
 	"Storage.h"
 	<fstream>
 	<iostream>
@@ -75,7 +75,7 @@
 
 1477116703 c:\users\ashar khan\desktop\matrix calculator\settings.h
 
-1478952672 source:c:\users\ashar khan\desktop\matrix calculator\settings.cpp
+1486201535 source:c:\users\ashar khan\desktop\matrix calculator\settings.cpp
 	"Settings.h"
 	<iostream>
 	"Equipments.h"

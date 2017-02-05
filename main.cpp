@@ -15,7 +15,7 @@ int main()
     Log.Loginfo();
     Navigate Navigator;// user defined data type for navigation across the program
     Log.Events(1); //Launch Event
-    cout<<"Please Do not Delete the \"Database.mac\" file, as it Contains Your Settings.\n\n Maximize this Window Please, then press any character.\n\n ";
+    cout<<"Please Do not Delete the \"Database.txt\" file, as it Contains Your Settings.\n\n Maximize this Window Please, then press any character.\n\n ";
     Log.Events(2); //Window maximized
     getch();
     File.open("Database.txt");

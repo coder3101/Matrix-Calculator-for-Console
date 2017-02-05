@@ -210,15 +210,17 @@ void Settings::Help()
     Note.Events(82); // dev info
     system("cls");
     BORDER;
-    Switch.box(3,15,75,2);
+    Switch.box(3,20,75,1);
      Format.gotoxy(78,3);
      std::cout<<"HELP AND SUPPORT";
-     std::cout<<"The Sources where you can find the help regarding the application are listed below : ";
-     std::cout<<"https://github.com/coder3101/Matrix_Calculator";
+     Format.gotoxy(63,12);
+     std::cout<<"Visit the Link below for any Help or Support ";
+     Format.gotoxy(55,20);
+     std::cout<<"https://www.github.com/coder3101/Matrix_Calculator-for-Console";
 
     INBOX;
         Format.gotoxy(35,39);
-        Note.Events(16); //Logs Presented, seeking any key to terminate
+        Note.Events(16);
        std:: cout<<"\t   \tPRESS ANY KEY TO RETURN TO PREVIOUS MENU";
      getch();
      Note.Events(83);
@@ -230,7 +232,24 @@ void Settings::Help()
 }
 void Settings::About_Me()
 {
+    Note.Events(100); //about me opened
+    system("cls");
+    BORDER;
+    Switch.box(3,20,75,1);
+     Format.gotoxy(78,3);
+     std::cout<<"ABOUT DEVELOPER";
+     Format.gotoxy(72,16);
+     std::cout<<"Made with LOVE by coder3101 ";
+     Format.gotoxy(70,20);
+     std::cout<<"https://www.facebook.com/coder3101";
 
+       INBOX;
+        Format.gotoxy(35,39);
+        Note.Events(16);
+       std:: cout<<"\t      \tPRESS ANY KEY TO RETURN TO PREVIOUS MENU";
+     getch();
+     Note.Events(83);
+     Redirect.options();
 }
 void Settings::SetCurrentInfo(unsigned long long int buffer)
 {
